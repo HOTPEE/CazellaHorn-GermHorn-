@@ -1,0 +1,39 @@
+CheckTexture:    # 节点名不可变更
+  options:
+    startX: "10"
+    startY: "10"
+    consume: false     # 不可删除
+  Input:    # 节点名不可变更
+    type: 7
+    enable: true
+    tooltip:
+      - '&c我是悬浮的时候被显示出来的那个'
+    autoClear: false
+    background: true
+    limit: 32
+    permanentFocus: false
+    regular: "[^(0-9)][^(A-Za-z)][^(\u4e00-\u9fa5)]"
+    sync: true    # 不可删除
+    invalid: false
+    width: "w*0.4"
+    height: "h*0.05"
+    locationX: "w*0.3"
+    locationY: "h*0.4"
+    locationZ: "0"
+  ConfirmButton:    # 节点名不可变更
+    type: 3
+    defaultPath: 'url<->https://z3.ax1x.com/2021/07/13/WA1QUI.png'
+    hoverPath: 'url<->https://z3.ax1x.com/2021/07/13/WA1s2T.png'
+    hoverSound: ''
+    clickSound: 'minecraft:ui.button.click'
+    locationX: "w*0.430"
+    locationY: "h*0.459"
+    locationZ: "0"
+    width: "w*0.12"
+    height: "h*0.07"
+    invalid: false
+    align: "center"
+    hoverAlign: "center"
+    hoverText: "确定键"
+    animations:
+      - "透明到不透明"

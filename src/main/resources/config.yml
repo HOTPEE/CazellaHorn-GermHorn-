@@ -1,0 +1,22 @@
+Prefix: "&7|| &b全服喊话 &7|| "         # 插件前缀
+NoPermission-Message: "&b你没有权限"      # 没有权限提示
+NoItem-Message: "&c你没有足够的喊话喇叭"   # 没有足够物品提示
+CloseGui-Message: "&a由于你关闭了输入窗口，你的物品已返还"    # 返还物品提示
+isHorn-Message: "&b由于目前正在喊话，请耐心等待"      # 正在喊话提示
+Reload-Message: "&6重载成功"       # 重载成功提示
+BanString-Message: "&b你不能发送含有违规词的喊话"
+Commands-Message:       # 命令提示
+  - ""
+  - "&f&lCazellaHorn &7帮助页面"
+  - ""
+  - "    &f- &c&l/CazellaHorn Send  &e[进行全服喊话]"
+  - "    &f- &c&l/CazellaHorn Reload   &e[重载插件]"
+  - ""
+HornTask: 15        # 喊话留存时间 (单位: 秒)
+MatchLore: "&9喇叭"          # Lore判断
+BanString:
+  - "你妈死了"
+
+# 是否开启跨服喇叭 你需要注意的是，跨服喇叭开启后，你必须安装 BC喇叭插件 作为数据传输通道中继站
+# 否则插件无法使用!!!!
+BungeeCord: false

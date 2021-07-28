@@ -1,0 +1,28 @@
+HornTexture:    # 不可变更
+  options:
+    startX: "10"
+    startY: "10"
+    consume: false
+    openDos:
+      - "delay<->15000"
+      - "closeChild<->HornTexture"
+  texture:    # 不可变更
+    type: 0
+    path: 'url<->https://z3.ax1x.com/2021/07/13/WAQO6e.png'
+    locationX: "w*0.117"
+    locationY: "h*0.107"
+    width: "w*0.8"
+    height: "h*0.1"
+    animations:
+      - "透明到不透明"
+  Text:    # 不可变更
+    type: 4
+    enable: true
+    align: "left"
+    scale: '3'
+    font: "default"
+    texts:
+      - "..."    # 不可变更
+    locationX: "w*0.15"
+    locationY: "h*0.127"
+    locationZ: "0"

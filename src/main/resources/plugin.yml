@@ -1,0 +1,10 @@
+name: CazellaHorn
+version: 1.0.0
+main: com.cazella.mc.cazellahorn.CazellaHorn
+api-version: 1.13
+authors: [ CazellaStudio ]
+description: CazellaHorn
+softdepend:
+  - GermPlugin
+commands:
+  CazellaHorn:
